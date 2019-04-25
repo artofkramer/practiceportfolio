@@ -2,18 +2,8 @@
   <ul>
    {% for item in site.data.navigation %}
     <li>
-      <a href="#">
-        Home
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        Work
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        About
+      <a href="{{item.link}}">
+        {{item.link}}
       </a>
     </li>
    {% and for %}
